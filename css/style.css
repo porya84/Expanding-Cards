@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Cards_container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Cards_cols {
+    height: 450px;
+    width: 950px !important;
+    padding: 0 !important;
+}
