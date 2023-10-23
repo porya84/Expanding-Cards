@@ -20,3 +20,29 @@
     width: 950px !important;
     padding: 0 !important;
 }
+.Card {
+    height: 100%;
+    border-radius: 30px;
+
+}
+.Card_body {
+    height: 100%;
+    border-radius: 30px;
+    margin-left: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+#card_1{
+    background: url(../images/img1.jpg) ;
+    }
+    #card_2{
+    background: url(../images/img2.jpg);
+    }
+    #card_3{
+    background: url(../images/img3.jpg);
+    }
+    #card_4{
+    background: url(../images/img4.jpg);
+    }
