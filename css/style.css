@@ -19,11 +19,12 @@
     height: 450px;
     width: 950px !important;
     padding: 0 !important;
+    
 }
 .Card {
     height: 100%;
     border-radius: 30px;
-
+    transition: 1s;
 }
 .Card_body {
     height: 100%;
@@ -33,6 +34,12 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+    
+}
+.selected{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
 }
 #card_1{
     background: url(../images/img1.jpg) ;
@@ -46,7 +53,7 @@
     #card_4{
     background: url(../images/img4.jpg);
     }
-    #card_number{
+    .card_number{
         background-color: aliceblue;
         font-size: 20px;
         width: 50px;
