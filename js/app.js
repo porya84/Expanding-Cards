@@ -7,10 +7,10 @@ cardsElem.forEach((card) => {
 
   card.addEventListener("click", (event) => {
 
-    card.children[0].classList.add("selected");
+    
 
     classDeactivation();
-
+card.children[0].classList.add("selected");
     event.target.parentElement.classList.remove("col-1");
     event.target.parentElement.classList.add("col-9");
   });
@@ -21,6 +21,7 @@ cardsElem.forEach((card) => {
 const classDeactivation = () => {
 
   cardsElem.forEach((card) => {
+    card.children[0].classList.remove("selected");
     card.parentElement.classList.add("col-1");
     card.parentElement.classList.remove("col-9");
   });

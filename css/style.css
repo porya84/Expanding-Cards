@@ -39,7 +39,7 @@
 .selected{
     margin-left: 20px;
     margin-bottom: 20px;
-    transition: 0.5s;
+    
 }
 #card_1{
     background: url(../images/img1.jpg) ;
@@ -61,4 +61,5 @@
         text-align: center;
         padding-top: 8px;
         border-radius: 100%;
+        transition: 0.5s;
     }
